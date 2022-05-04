@@ -21,7 +21,7 @@ document.getElementById('costo').innerHTML = text + (prezzoIntero.toFixed(2)) + 
 console.log (text + prezzoIntero + euro);
 
 
-if (anni <= 18) {
+if (anni < 18) {
 
     document.getElementById('sconto').innerHTML = textSconto + (((prezzoIntero / 100) * 80).toFixed(2)) + euro;
     console.log (textSconto + ((prezzoIntero / 100) * 80).toFixed(2) + euro);
