@@ -23,11 +23,11 @@ console.log (text + prezzoIntero + euro);
 
 if (anni < 18) {
 
-    document.getElementById('sconto').innerHTML = textSconto + (((prezzoIntero / 100) * 80).toFixed(2)) + euro;
-    console.log (textSconto + ((prezzoIntero / 100) * 80).toFixed(2) + euro);
+    document.getElementById('sconto').innerHTML = textSconto + (((prezzoIntero * 80 ) / 100).toFixed(2)) + euro;
+    console.log (textSconto + ((prezzoIntero * 80 ) / 100).toFixed(2) + euro);
 }
 else if (anni >= 65) {
 
-    document.getElementById('sconto').innerHTML = textSconto + (((prezzoIntero / 100) * 60).toFixed(2)) + euro;
-    console.log (textSconto + ((prezzoIntero / 100) * 60).toFixed(2) + euro);
+    document.getElementById('sconto').innerHTML = textSconto + (((prezzoIntero * 60) / 100).toFixed(2)) + euro;
+    console.log (textSconto + ((prezzoIntero * 60) / 100).toFixed(2) + euro);
 }

@@ -9,12 +9,15 @@ body{
 }
 
 header{
-    height: 90px;
+    height: 100px;
+    background-color: #274c77;
+    color: #e7ecef;
 }
 
 
 main{
-    height: calc(100vh - 90px);
+    height: calc(100vh - 100px);
+    background-color: #e7ecef;
 }
 
 
